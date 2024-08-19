@@ -1,0 +1,227 @@
+@font-face {
+    font-family: merivaregular;
+    src: url(fonts/merivaregular.ttf)
+}
+
+
+body {
+    margin: 0;
+}
+
+/* header section  */
+.navbar {
+    width: 100%;
+    background-color: #0a0a26;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding: 20px !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    gap: 35px;
+    margin-top: 0px;
+    margin-right: 10px;
+
+}
+
+.dropdown-list {
+    font-size: 14px;
+}
+
+
+
+.dropdown-title {
+    position: relative;
+    bottom: 5px;
+}
+
+.dropdown-hover:hover {
+    background-color: transparent !important;
+    color: black !important;
+    transition: .3s ease-in;
+}
+
+.main-logo {
+    margin-left: 20px;
+}
+
+.nav-links {
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.hover:hover {
+    color: rgb(194, 42, 42) !important;
+    /* display: block !important; */
+
+}
+
+
+
+/* intro section  */
+.hero-img {
+    width: 100%;
+}
+
+/* main-content section  */
+.main-content-section {
+    width: 100%;
+}
+
+.main-content-div {
+    width: 100%;
+    /* display:flex; */
+}
+
+.left-img {
+    background-color: rgb(47, 193, 222);
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leav-text {
+    color: #812529 !important;
+    text-align: center;
+}
+
+.brewbold-bgImg {
+    display: block;
+
+}
+
+#brew-img {
+    width: 190px;
+}
+
+.left-img p {
+    font-size: 80px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+
+}
+
+.right-content {
+    width: 100%;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.content-div {
+    width: 100%;
+    /* height: 500px; */
+}
+
+.content-div p {
+    font-size: 24px;
+    font-family: "merivaregular";
+    color: black;
+    margin-bottom: 32px;
+
+}
+
+.right-content {
+    padding: 120px !important;
+}
+
+/* bottom image section  */
+.bottom-img-div {
+    width: 100%;
+
+}
+
+.social-media-icons a {
+    text-decoration: none;
+}
+
+/* footer  section  */
+.bottom-img-div {
+    width: 100%;
+}
+
+.footer-div {
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+
+}
+
+.mail-div a {
+    text-decoration: none;
+}
+
+.mail-div a:hover {
+
+    text-decoration: underline #e53f27;
+}
+
+.mail-div a p:hover {
+    color: #e53f27;
+
+}
+
+.contact-div a {
+    text-decoration: none;
+
+}
+
+.contact-div .annual-text:hover {
+    color: #e53f27;
+    text-decoration: underline #e53f27;
+}
+
+.contact-div p a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-div p a:hover {
+    text-decoration: underline #e53f27;
+    color: #e53f27;
+}
+
+.footer-row div {
+    margin-bottom: 30px;
+}
+
+.footer-row div p {
+    font-family: merivaregular;
+    font-size: 14px;
+    color: black;
+}
+
+.social-media-footer-icons a {
+    color: black;
+    margin-left: 5px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+
+    #brew-img {
+        width: 100px;
+
+    }
+
+    .left-img p {
+        font-size: 40px;
+    }
+
+    .content-div p {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .right-content {
+        padding: 30px !important;
+    }
+}
